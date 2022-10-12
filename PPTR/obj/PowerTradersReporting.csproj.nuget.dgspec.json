@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting\\PowerTradersReporting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Domain\\Petroineos.PowerTradersReporting.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Domain\\Petroineos.PowerTradersReporting.Domain.csproj",
+        "projectName": "Petroineos.PowerTradersReporting.Domain",
+        "projectPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Domain\\Petroineos.PowerTradersReporting.Domain.csproj",
+        "packagesPath": "C:\\Users\\Sage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sage\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://angloteamproject.pkgs.visualstudio.com/_packaging/Core/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://registry.paymentsense.tech/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Services\\PPTR.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Services\\PPTR.Services.csproj",
+        "projectName": "PPTR.Services",
+        "projectPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Services\\PPTR.Services.csproj",
+        "packagesPath": "C:\\Users\\Sage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sage\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://angloteamproject.pkgs.visualstudio.com/_packaging/Core/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://registry.paymentsense.tech/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Domain\\Petroineos.PowerTradersReporting.Domain.csproj": {
+                "projectPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Domain\\Petroineos.PowerTradersReporting.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[29.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting\\PowerTradersReporting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting\\PowerTradersReporting.csproj",
+        "projectName": "PowerTradersReporting",
+        "projectPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting\\PowerTradersReporting.csproj",
+        "packagesPath": "C:\\Users\\Sage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sage\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://angloteamproject.pkgs.visualstudio.com/_packaging/Core/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://registry.paymentsense.tech/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Services\\PPTR.Services.csproj": {
+                "projectPath": "C:\\Users\\Sage\\Downloads\\petroineos-power-traders-intra-day-report-main\\petroineos-power-traders-intra-day-report-main\\Petroineos.PowerTradersReporting.Services\\PPTR.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
